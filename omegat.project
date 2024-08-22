@@ -26,7 +26,7 @@
         <remove_tags>false</remove_tags>
         <external_command></external_command>
         <repositories>
-            <repository type="git" url="https://github.com/OmegaT-L10N/fr.git">
+            <repository type="git" url="https://github.com/miurahr/omegat-l10n-fr.git">
                 <mapping local="" repository=""/>
             </repository>
             <repository type="git" url="https://github.com/OmegaT-L10N/doc_src.git">
