@@ -13,7 +13,11 @@
         <files sourceFilenameMask="*.pot" targetFilenamePattern="${filename}" sourceEncoding="UTF-8" targetEncoding="UTF-8"/>
     </filter>
     <filter className="org.omegat.filters2.text.bundles.ResourceBundleFilter" enabled="true">
-        <files sourceFilenameMask="*.properties" targetFilenamePattern="${nameOnly}_${targetLocale}.${extension}" sourceEncoding="US-ASCII" targetEncoding="US-ASCII"/>
+        <files sourceFilenameMask="*.properties" targetFilenamePattern="${nameOnly}_fr.${extension}" sourceEncoding="UTF-8" targetEncoding="UTF-8"/>
+        <option name="dontRenameTargetFile" value="true"/>
+        <option name="dontUnescapeULiterals" value="false"/>
+        <option name="forceJava8LiteralsEscape" value="true"/>
+        <option name="unremoveStringsUntranslated" value="false"/>
     </filter>
     <filter className="org.omegat.filters3.xml.xhtml.XHTMLFilter" enabled="false">
         <files sourceFilenameMask="*.html" targetFilenamePattern="${filename}"/>
